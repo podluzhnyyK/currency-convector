@@ -30,7 +30,7 @@
 				<div class="col-6">
 					<!-- Content -->
 					<div class="card p-3">
-						<form action="mail.php" method="POST" id="form_id">
+						<form enctype="multipart/form-data" method="post" id="form_id" onsubmit="send(event, 'mail.php')">
 							<h1 class="h2 mb-4">Конвертер валют</h1>
 
 							<div class="courses">
