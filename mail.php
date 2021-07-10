@@ -8,7 +8,7 @@ $name = $_POST['rub'];
 $phone = $_POST['ue'];
 $email = $_POST['email'];
 
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.yandex.ru';  																							// Specify main and backup SMTP servers
