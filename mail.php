@@ -36,8 +36,8 @@ try {
     $mail->setFrom('mail@yandex.ru', 'Имя отправителя'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('youremail@yandex.ru');  
-    $mail->addAddress('youremail@gmail.com'); // Ещё один, если нужен
+    $mail->addAddress('kirill.seo2019@yandex.ru');  
+    $mail->addAddress('kirill.seo2019@yandex.ru'); // Ещё один, если нужен
 
     // Прикрипление файлов к письму
 if (!empty($file['name'][0])) {
